@@ -21,7 +21,7 @@ const ContactPage = () => {
   return (
     <Layout>
       <Seo title="Contact" />
-      <div className="container  my-5">
+      <div className="container contact  my-5">
         <h1 className="form__title">
           {contactData.markdownRemark.frontmatter.title}
         </h1>
