@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Test Project Gatsby-React`,
+    title: `Zaneta's Project with Gatsby-React`,
     description: `A great project test with Gatsby`,
     author: `Zaneta`,
   },
@@ -47,13 +47,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Test Project Gatsby-React`,
-        short_name: `Test site`,
+        name: `Zaneta's Headless Project with Gatsby-React`,
+        short_name: `Project Gatsby`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#71213b`,
+        theme_color: `#71213b`,
         display: `standalone`,
-        icon: `src/images/logowhite.svg`,
+        icon: `./src/images/favicon.jpg`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
